@@ -24,14 +24,14 @@ or download the css on github and include in your project.
 .mn-hi-fit  { min-height: fit-content; }
 .mn-hi-fill { min-height: fill-available; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mn-hi-max-ns  { min-height: max-content; }
   .mn-hi-min-ns  { min-height: min-content; }
   .mn-hi-fit-ns  { min-height: fit-content; }
   .mn-hi-fill-ns { min-height: fill-available; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
 
 
   .mn-hi-max-m  { min-height: max-content; }
@@ -40,7 +40,7 @@ or download the css on github and include in your project.
   .mn-hi-fill-m { min-height: fill-available; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mn-hi-max-l  { min-height: max-content; }
   .mn-hi-min-l  { min-height: min-content; }
   .mn-hi-fit-l  { min-height: fit-content; }
