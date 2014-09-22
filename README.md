@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-min-heights)
 ## File Size
 
 889B min-heights.css
-722B min-heights.min.css
+722B min-heights.min.css 
+188B minified and gzipped
 
 ## The Code
 ```
