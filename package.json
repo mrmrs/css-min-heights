@@ -1,5 +1,6 @@
 {
   "name": "css-min-heights",
+  "style": "min-heights.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-min-heights",
   "description": "Css module of single purpose classes for min heights",
