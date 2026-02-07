@@ -8,10 +8,10 @@
 .mn-hi-fill { min-height: fill-available; }
 
 @media screen and (min-width: 48em) {
-  .mn-hi-max-ns  { min-height: max-content; }
-  .mn-hi-min-ns  { min-height: min-content; }
-  .mn-hi-fit-ns  { min-height: fit-content; }
-  .mn-hi-fill-ns { min-height: fill-available; }
+  .mn-hi-max-s  { min-height: max-content; }
+  .mn-hi-min-s  { min-height: min-content; }
+  .mn-hi-fit-s  { min-height: fit-content; }
+  .mn-hi-fill-s { min-height: fill-available; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
