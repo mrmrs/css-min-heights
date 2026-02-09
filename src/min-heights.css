@@ -7,14 +7,14 @@
 .mn-hi-fit  { min-height: fit-content; }
 .mn-hi-fill { min-height: fill-available; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mn-hi-max-s  { min-height: max-content; }
   .mn-hi-min-s  { min-height: min-content; }
   .mn-hi-fit-s  { min-height: fit-content; }
   .mn-hi-fill-s { min-height: fill-available; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
 
 
   .mn-hi-max-m  { min-height: max-content; }
@@ -23,7 +23,7 @@
   .mn-hi-fill-m { min-height: fill-available; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mn-hi-max-l  { min-height: max-content; }
   .mn-hi-min-l  { min-height: min-content; }
   .mn-hi-fit-l  { min-height: fit-content; }
